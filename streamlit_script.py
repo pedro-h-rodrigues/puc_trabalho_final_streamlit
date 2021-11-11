@@ -20,6 +20,7 @@ with open(dict_path, 'rb') as file:
 # Modelo de pos tagging
 modelo_pos_tag= spacy.load("pt_core_news_sm")
 
+
 # Pre processamento para limpar a descrição
 def pre_process_description(data):
     p1 = re.compile(r'<.*?>')

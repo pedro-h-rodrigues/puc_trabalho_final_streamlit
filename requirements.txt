@@ -1,3 +1,5 @@
-spacy==2.2.4
-nltk==3.6.4
-scikit_learn==0.24.2
+spacy
+nltk
+scikit_learn
+sklearn
+pt_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.2.0/pt_core_news_sm-3.2.0.tar.gz
